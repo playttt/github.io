@@ -1,0 +1,285 @@
+body {
+  background: #000000;
+  font-family: 'Press Start 2P', cursive;
+  shape-rendering: geometricPrecision;
+}
+
+.level1 {
+  color: #FFA974;
+  font-family: 'Press Start 2P', cursive;
+  shape-rendering: crispEdges;
+}
+
+.non-scalable-stroke {
+  vector-effect: non-scaling-stroke;
+}
+
+.pit-shadow {
+  fill: #333333;
+}
+
+.pit-walls {
+  stroke: rgb(148,219,85);
+}
+
+.pit-walls-schema {
+  fill: rgb(148,219,85);
+}
+
+.falling-piece {
+  stroke: #FFFFFF;
+  stroke-width: 2;
+}
+
+.blurred {
+  filter: url(#blurFilter);
+}
+
+.overflow {
+  overflow: visible;
+}
+
+.game-score {
+  fill: rgb(148,219,85);
+}
+
+.menu-background {
+  background: #1B574A;
+}
+
+.option {
+  fill: #1B574A;
+  color: #FFA974;
+}
+
+.label {
+  cursor: default;
+}
+
+.action {
+  cursor: pointer;
+}
+
+text.option {
+  fill: #FFA974;
+  color: #1B574A;
+}
+
+.selected-option {
+  fill: #FFA974;
+  color: #1B574A;
+  font-family: 'Press Start 2P', cursive;
+  shape-rendering: crispEdges;
+}
+
+text.selected-option {
+  fill: #1B574A;
+  color: #FFA974;
+  font-family: 'Press Start 2P', cursive;
+  shape-rendering: crispEdges;
+}
+
+text.disabled-option {
+  fill: gray;
+  cursor: not-allowed;
+}
+
+.blockLevel0 {
+  fill: rgb(15,175,57);
+  stroke: rgb(7,85,27);
+}
+
+.blockLevel0-shadow {
+  fill: rgb(87,199,116);
+  stroke: rgb(10,122,39);
+}
+
+.blockLevel1 {
+  fill: rgb(42,102,108);
+  stroke: rgb(20,49,52);
+}
+
+.blockLevel1-shadow {
+  fill: rgb(105,147,152);
+  stroke: rgb(29,71,75);
+}
+
+.blockLevel2 {
+  fill: rgb(69,29,160);
+  stroke: rgb(33,14,78);
+}
+
+.blockLevel2-shadow {
+  fill: rgb(124,96,188);
+  stroke: rgb(48,20,112);
+}
+
+.blockLevel3 {
+  fill: rgb(151,37,90);
+  stroke: rgb(73,17,44);
+}
+
+.blockLevel3-shadow {
+  fill: rgb(182,102,139);
+  stroke: rgb(105,25,63);
+}
+
+.blockLevel4 {
+  fill: rgb(234,45,20);
+  stroke: rgb(114,21,9);
+}
+
+.blockLevel4-shadow {
+  fill: rgb(240,108,90);
+  stroke: rgb(163,31,14);
+}
+
+.blockLevel5 {
+  fill: rgb(234,124,20);
+  stroke: rgb(114,60,9);
+}
+
+.blockLevel5-shadow {
+  fill: rgb(240,163,90);
+  stroke: rgb(163,86,14);
+}
+
+.blockLevel6 {
+  fill: rgb(234,203,20);
+  stroke: rgb(114,99,9);
+}
+
+.blockLevel6-shadow {
+  fill: rgb(240,218,90);
+  stroke: rgb(163,142,14);
+}
+
+.blockLevel7 {
+  fill: rgb(124,189,38);
+  stroke: rgb(60,92,18);
+}
+
+.blockLevel7-shadow {
+  fill: rgb(163,208,103);
+  stroke: rgb(86,132,26);
+}
+
+.blockLevel8 {
+  fill: rgb(15,175,57);
+  stroke: rgb(7,85,27);
+}
+
+.blockLevel8-shadow {
+  fill: rgb(87,199,116);
+  stroke: rgb(10,122,39);
+}
+
+.blockLevel9 {
+  fill: rgb(42,102,108);
+  stroke: rgb(20,49,52);
+}
+
+.blockLevel9-shadow {
+  fill: rgb(105,147,152);
+  stroke: rgb(29,71,75);
+}
+
+.blockLevel10 {
+  fill: rgb(69,29,160);
+  stroke: rgb(33,14,78);
+}
+
+.blockLevel10-shadow {
+  fill: rgb(124,96,188);
+  stroke: rgb(48,20,112);
+}
+
+.blockLevel11 {
+  fill: rgb(151,37,90);
+  stroke: rgb(73,17,44);
+}
+
+.blockLevel11-shadow {
+  fill: rgb(182,102,139);
+  stroke: rgb(105,25,63);
+}
+
+.blockLevel12 {
+  fill: rgb(234,45,20);
+  stroke: rgb(114,21,9);
+}
+
+.blockLevel12-shadow {
+  fill: rgb(240,108,90);
+  stroke: rgb(163,31,14);
+}
+
+.blockLevel13 {
+  fill: rgb(234,124,20);
+  stroke: rgb(114,60,9);
+}
+
+.blockLevel13-shadow {
+  fill: rgb(240,163,90);
+  stroke: rgb(163,86,14);
+}
+
+.blockLevel14 {
+  fill: rgb(234,203,20);
+  stroke: rgb(114,99,9);
+}
+
+.blockLevel14-shadow {
+  fill: rgb(240,218,90);
+  stroke: rgb(163,142,14);
+}
+
+.blockLevel15 {
+  fill: rgb(124,189,38);
+  stroke: rgb(60,92,18);
+}
+
+.blockLevel15-shadow {
+  fill: rgb(163,208,103);
+  stroke: rgb(86,132,26);
+}
+
+.blockLevel16 {
+  fill: rgb(15,175,57);
+  stroke: rgb(7,85,27);
+}
+
+.blockLevel16-shadow {
+  fill: rgb(87,199,116);
+  stroke: rgb(10,122,39);
+}
+
+.blockLevel17 {
+  fill: rgb(42,102,108);
+  stroke: rgb(20,49,52);
+}
+
+.blockLevel17-shadow {
+  fill: rgb(105,147,152);
+  stroke: rgb(29,71,75);
+}
+
+.blockLevel18 {
+  fill: rgb(69,29,160);
+  stroke: rgb(33,14,78);
+}
+
+.blockLevel18-shadow {
+  fill: rgb(124,96,188);
+  stroke: rgb(48,20,112);
+}
+
+.blockLevel19 {
+  fill: rgb(151,37,90);
+  stroke: rgb(73,17,44);
+}
+
+.blockLevel19-shadow {
+  fill: rgb(182,102,139);
+  stroke: rgb(105,25,63);
+}

@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.170
+{:name ttt.config, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses nil, :requires nil, :imports nil, :defs {debug? {:name ttt.config/debug?, :file "src/cljs/ttt/config.cljs", :line 3, :column 1, :end-line 3, :end-column 12, :meta {:file "/media/al/linuxdocs/Dropbox/tmp/deleteme/ttt-cljs/src/cljs/ttt/config.cljs", :line 3, :column 6, :end-line 3, :end-column 12}}}}
